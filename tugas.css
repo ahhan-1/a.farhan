@@ -1,0 +1,381 @@
+body {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("PRX1.jpg");
+  word-spacing: 5px;
+}
+
+.nama {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bolder;
+  color: #f829ff;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 30px;
+}
+.nama:hover {
+  background-color: rgb(0, 0, 0);
+  text-replace: all ease 2s;
+}
+
+.container {
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 1000px;
+  margin-top: 35px;
+  height: 80px;
+  display: flex;
+}
+
+.judul {
+  margin-top: 150px;
+  background-color: #ffffff;
+  border: 0px solid #000000;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 600px;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.judul > a {
+  font-weight: bold;
+  color: #f829ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.judul:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.paragraf1 {
+  font-size: 20px;
+  background-color: #ffffff3a;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.329);
+  border-radius: 40px;
+  text-align: justify;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 1180px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.paragraf1:hover {
+  background-color: rgb(0, 0, 0);
+  text-replace: all ease 2s;
+}
+
+.paragraf2 {
+  font-size: 20px;
+  background-color: #ffffff3a;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.212);
+  border-radius: 40px;
+  text-align: justify;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-family: "Roboto", sans-serif;
+  width: 1180px;
+  font-weight: bold;
+}
+
+.paragraf2:hover {
+  background-color: rgb(0, 0, 0);
+  text-replace: all ease 2s;
+}
+
+.paragraf3 {
+  font-size: 20px;
+  background-color: #ffffff3a;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.233);
+  border-radius: 40px;
+  text-align: justify;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 1180px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.paragraf3:hover {
+  background-color: rgb(0, 0, 0);
+  text-replace: all ease 2s;
+}
+
+.paragraf4 {
+  font-size: 20px;
+  background-color: #ffffff3a;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.164);
+  border-radius: 40px;
+  text-align: justify;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 1180px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.paragraf4:hover {
+  background-color: rgb(0, 0, 0);
+  text-replace: all ease 2s;
+}
+.gambar {
+  display: flex;
+}
+
+.team {
+  margin-top: 80px;
+  font-size: 40px;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 580px;
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(248, 41, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.team:hover {
+  background-color: #000000;
+  text-replace: all ease 2s;
+}
+
+.gambar1 {
+  background-image: url("jingbaru.png");
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  color: #fff;
+  margin-left: 50px;
+  border-radius: 40px;
+  transition: background-image 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.gambar1:hover {
+  background-image: url("Raze.png");
+}
+
+.gambar2 {
+  background-image: url("forsaken.jpg");
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 40px;
+  transition: background-image 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.gambar2:hover {
+  background-image: url("chyper.png");
+}
+
+.gambar4 {
+  background-image: url("mindfreaK.png");
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 40px;
+  transition: background-image 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.gambar4:hover {
+  background-image: url("omen.png");
+}
+
+.gambar3 {
+  background-image: url("davai.jpeg");
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 40px;
+  transition: background-image 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.gambar3:hover {
+  background-image: url("skye.png");
+}
+
+.gambar5 {
+  background-image: url("something.jpg");
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 40px;
+  transition: background-image 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+
+.gambar5:hover {
+  background-image: url("jett.png");
+}
+
+.player {
+  display: flex;
+}
+
+.jing {
+  font-size: 20px;
+  width: 120px;
+  height: 35px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 100px;
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(248, 41, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.jing:hover {
+  background-color: #000000;
+  text-replace: all ease 2s;
+}
+
+.forsaken {
+  font-size: 20px;
+  width: 130px;
+  height: 35px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 130px;
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(248, 41, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.forsaken:hover {
+  background-color: #000000;
+  text-replace: all ease 2s;
+}
+
+.davai {
+  font-size: 20px;
+  width: 120px;
+  height: 35px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 130px;
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(248, 41, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.davai:hover {
+  background-color: #000000;
+  text-replace: all ease 2s;
+}
+
+.mindfreak {
+  font-size: 20px;
+  width: 120px;
+  height: 35px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 130px;
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(248, 41, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.mindfreak:hover {
+  background-color: #000000;
+  text-replace: all ease 2s;
+}
+
+.something {
+  font-size: 20px;
+  width: 120px;
+  height: 35px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  margin-left: 130px;
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(248, 41, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.something:hover {
+  background-color: #000000;
+  text-replace: all ease 2s;
+}
+
+.hyperlink {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.hyperlink > a {
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0px 10px;
+}
+.hyperlink > a:hover {
+    color: #ff29bf;
+  }
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(252, 252, 252, 0.322);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.footer span {
+  justify-content: center;
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0px 10px;
+}
